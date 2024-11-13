@@ -6,11 +6,11 @@
 int main() {
     std::cout << "SPlisHSPlasH Fluid Simulation" << std::endl;
 
-    // 创建流体模拟对象和求解器
+    // setup fluid system and solver
     FluidSystem fluidSystem;
     Solver solver;
 
-    // 初始化和运行模拟
+    // initialize and solve fluid system
     fluidSystem.init();
     solver.solve(fluidSystem);
 
